@@ -12,5 +12,13 @@ public class ArraysQuestion1 {
 		 
 		 return arr;
 	}
+	
+	public int findTheElement(int element) {
+		int[] arr = {9, 10, 11, 23, 54, 67};
+		
+		int index = Arrays.binarySearch(arr, element);
+		
+		return index+ 1;
+	}
 
 }
